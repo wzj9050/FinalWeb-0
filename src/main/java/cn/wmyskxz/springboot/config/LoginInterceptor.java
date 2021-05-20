@@ -35,11 +35,11 @@ public class LoginInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle( HttpServletRequest request, HttpServletResponse response, Object handler ) throws Exception {
         HttpSession session = request.getSession();
-        if (session.getAttribute("username") != null) {
+        if (session.getAttribute("username") != "" || session.getAttribute("username")!=null) {
             // 已登录，放行。。
             return true;
         } else {
-            System.out.println("你还没登录，没有权限");
+            System.out.println("You haven't login in. No ");
             // 未登录，拦截 返回login
             response.sendRedirect("login");
             return false;

@@ -30,7 +30,7 @@ public class AppConfig {
             //                properties.load(resourceAsStream);
             this.jdbcUrl = "jdbc:mysql://127.0.0.1:3306/login?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT&useSSL=false";
             this.jdbcUsername = "root";
-            this.jdbcPassword = "112139@Shao";
+            this.jdbcPassword = "dd976789595";
 //        } finally {
 //            if (resourceAsStream != null) {
 //                try {

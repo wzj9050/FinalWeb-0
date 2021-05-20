@@ -48,6 +48,7 @@ public class LoginController {
         return "login";
     }
 
+
     /**
      * 功能描述：显示非法登录页
      *
@@ -82,5 +83,11 @@ public class LoginController {
     @GetMapping("/user")
     public String user() {
         return "user";
+    }
+
+
+    @GetMapping("/login_out")
+    public String loginout() {
+        return "login_out";
     }
 }

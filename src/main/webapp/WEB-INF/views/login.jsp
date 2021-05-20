@@ -4,13 +4,13 @@ pageEncoding="UTF-8" %>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>登录</title>
+    <title>Login in</title>
 </head>
 <body>
 <form action="/doLogin" method="post">
-    用户名：<input type="text" name="userName"/>
-    密码：<input type="password" name="password"/>
-    <input type="submit" value="登录">
+    Username：<input type="text" name="userName"/>
+    Password：<input type="password" name="password"/>
+    <input type="submit" value="Login in">
 </form>
 </body>
 </html>
